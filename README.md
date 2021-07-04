@@ -1,6 +1,6 @@
 # SocialMediaDashboard
 
-[Deployed](https://brandonmartinez-jar.github.io/Social-media-dashboard/)
+[Demo](https://brandonmartinez-jar.github.io/Social-media-dashboard/)
 
 ## Technologies
 
