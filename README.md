@@ -6,8 +6,8 @@
 
 This project was made with:
 
-- Angular
 - Html
 - CSS
-- TypeScript
 - Responsive design
+- Angular
+- TypeScript
