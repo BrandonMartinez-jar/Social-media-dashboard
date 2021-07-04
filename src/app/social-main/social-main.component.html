@@ -1,0 +1,31 @@
+<div class="social__card" [ngStyle]="{'border-bottom' : '5px solid' + RedSocial.color }">
+
+  <i class="uil uil-{{RedSocial.name}} social__logo" [ngStyle]="{'color' : RedSocial.color }"></i>
+  <img class="social__perfil" src="{{RedSocial.img}}" alt="">
+
+  <div class="social__content">
+
+
+    <div class="social__name">
+
+      <span>{{RedSocial.username}}</span>
+    </div>
+
+    <h3 class="social__subs-title">
+      followers
+    </h3>
+
+    <h4 class="social__subs-number">
+      {{RedSocial.subs}}
+    </h4>
+
+    <span class="social__new-subs">
+      <i class="uil uil-angle-up"></i>
+      20 Today
+    </span>
+
+  </div>
+
+</div>
+
+

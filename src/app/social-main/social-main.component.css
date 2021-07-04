@@ -1,0 +1,77 @@
+.social__card{
+  margin: 20px;
+  margin-top: 80px;
+  position: relative;
+  width: 220px;
+  height: 220px;
+  background: var(--bg-card-color);
+  border-radius: 10px;
+  flex-wrap: wrap;
+  border-bottom: 5px solid ;
+}
+
+.social__content{
+  position: relative;
+  top: 60px;
+  display: grid;
+  grid-template-rows: repeat(4, 30px);
+  row-gap: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__perfil{
+  position: absolute;
+  bottom: 175px;
+  width: 100px;
+  left: 65px;
+  height: 100px;
+
+  justify-self: center;
+  border-radius: 50%;
+  display: block;
+  justify-content: center;
+  z-index: 99;
+}
+.social__logo{
+  left: 100px;
+  top: 20px;
+  border: 1px solid rgba(0,0,0,.4);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100;
+}
+.social__name span{
+  font-size: var(--secondary-size);
+  color: var(--secondary-color);
+}
+
+.social__subs-title
+{
+  font-size: var(--secondary-size);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+
+.social__subs-number{
+  font-size: var(--primary-size);
+  color: var(--primary-color);
+}
+
+.social__new-subs{
+  font-size: var(--terciary-size);
+  color: var(--up-color);
+}
+
+@media screen and (max-width: 960px){
+  .social__card{
+    margin-top: 60px;
+  }
+}

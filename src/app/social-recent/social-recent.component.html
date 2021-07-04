@@ -1,0 +1,23 @@
+
+<div class="recent__card" [ngStyle]="{'border-bottom': '5px solid ' + Recent._color}">
+
+  <div class="recent__logo">
+  <i class="uil uil-{{Recent.name}}" [ngStyle]="{'color' : Recent._color }"></i>
+
+  </div>
+
+    <div class="recent__title">
+      {{Recent.title}}
+    </div>
+
+    <div class="recent__number">
+      {{Recent.number}}
+    </div>
+
+    <div class="recent__percentage" [ngStyle]="{'color' : Recent.color }">
+      <i class="uil uil-{{Recent.type}}"></i>
+      <span>{{Recent.new}}</span>
+
+</div>
+
+

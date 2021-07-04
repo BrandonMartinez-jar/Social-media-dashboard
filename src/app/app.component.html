@@ -1,0 +1,34 @@
+<div class="title flex">
+
+  <h2>SOCIAL MEDIA DASHBOARD</h2>
+
+  <span class="followers">Total Followers: {{getSubs()}}</span>
+
+</div>
+
+
+<div class="main__container">
+
+  <div class="container__social-main" >
+
+      <app-social-main *ngFor="let Social of Socials" [RedSocial]="Social"></app-social-main>
+
+  </div>
+
+  <div class="Container__recent">
+
+    <div class="title flex">
+
+      <h2>Recent Activity</h2>
+
+    </div>
+
+    <div class="container__recent">
+
+      <app-social-recent *ngFor="let Recent of Recents" [Recent]="Recent"></app-social-recent>
+
+    </div>
+
+
+  </div>
+</div>
